@@ -1,0 +1,23 @@
+h1 {
+    color: floralwhite;
+    background-color: black;
+}
+
+span {
+    color: aqua;
+}
+
+h2 {
+    color: floralwhite;
+    text-align: center;
+    background-color: indigo;
+    font-style: italic;
+}
+
+h3 {
+    text-align: right;
+    background-color: skyblue;
+    text-decoration: underline;
+    font-style: initial;
+    
+}

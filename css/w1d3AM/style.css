@@ -1,0 +1,46 @@
+/* h1 ia a selector
+   color is the property
+   aqua is the property value
+*/
+
+
+h1 {
+    color: aqua;
+}
+
+span {
+    color: blueviolet;
+}
+
+/* select everything with * */
+
+* {
+    background-color: coral;
+}
+
+#second-p {
+    color: darkmagenta;
+
+}
+
+/* id selector is good when you want to apply specific style to one element only */
+
+/* class is when you want to reuse one style on multiple elements.  */
+
+.unda {
+    
+    color: deeppink;
+    background-color: dimgrey;
+}
+
+/* > for direct child */
+
+ol>li{
+    font-size: large;
+}
+
+/* not a direct child  */
+
+div h3 {
+    color: firebrick;
+}
