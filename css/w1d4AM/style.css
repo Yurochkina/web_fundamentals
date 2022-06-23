@@ -1,0 +1,24 @@
+/* css resset , will get rid of all default margings and paddings. */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row {
+    height: 250px;
+    outline: 1px solid black;
+    background-color: coral;
+    display: flex;
+    justify-content: center; /* x axis */
+    align-items: center; /* y axis */
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    outline: 1px solid red;
+    background-color: aqua;
+}
