@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    height: 100px;
+    background-color: mediumturquoise;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#nav-left {
+    height: 75px;
+    width: 800px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+
+#nav-right {
+
+    height: 75px;
+    width: 400px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    outline: 1px solid black;
+    width: 400px;
+    justify-content: space-between;
+
+}
