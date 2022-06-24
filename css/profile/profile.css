@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    height: 100px;
+    width: 400px;
+    background-color: lightseagreen;
+}
+
+#profile-pic {
+    height: 100px;
+    width: 100px;
+    /* position: relative;
+    bottom: 50px;
+    left: 50px; */
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+p, h2, h4 {
+    margin: 5px;
+}
+
+.info {
+    padding: 10px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 30px;
+    
+}
+
+#map-marker {
+
+    height: 15px;
+    width: 15px;
+
+}
+
+
+#gear-icon {
+    height: 15px;
+    width: 15px;
+}
+
+
+#thumbnail {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    border: 4px solid lightgray;
+    border-radius: 50%;
+}
+
+#nav-bar {
+    height: 100px;
+    width: 1000px;
+    border: 1px solid red;
+
+}
+
+#main {
+    height: 600px;
+    width: 1000px;
+    border: 1px solid red;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.col-right {
+
+    height: 600px;
+    width: 1000px;
+    border: 1px solid red;
+    flex: 1;
+    padding: 10px;
+
+}
+
+.col-left {
+
+    height: 600px;
+    width: 1000px;
+    border: 1px solid red;
+    flex: 2;
+    padding: 10px;
+    
+
+}
+
+#info {
+
+    border: 1px solid red;
+
+}
+
+.card {
+    border: 2px solid lightgray;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: black;
+    height: 50px;
+}
+
+/* nav bar */
+
+#nav-bar {
+    height: 100px;
+    background-color: mediumturquoise;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#nav-left {
+    height: 75px;
+    width: 800px;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+
+#nav-right {
+
+    height: 75px;
+    width: 400px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    outline: 1px solid black;
+    width: 400px;
+    justify-content: space-between;
+
+}
+
