@@ -58,12 +58,6 @@ p, h2, h4 {
     border-radius: 50%;
 }
 
-#nav-bar {
-    height: 100px;
-    width: 1000px;
-    border: 1px solid red;
-
-}
 
 #main {
     height: 600px;
@@ -101,6 +95,8 @@ p, h2, h4 {
 
 }
 
+/* card css */
+
 .card {
     border: 2px solid lightgray;
     height: 200px;
@@ -111,45 +107,56 @@ p, h2, h4 {
 .card-header {
     background-color: black;
     height: 50px;
+    color: white;
+}
+
+.person {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* nav bar */
 
 #nav-bar {
-    height: 100px;
-    background-color: mediumturquoise;
+    background-color: black;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
+    justify-content: space-around;
+    color: white;
+    padding: 10px 0px;
+    width: 1000px;
 }
-
 
 #nav-left {
-    height: 75px;
-    width: 800px;
     display: flex;
-    border: 1px solid black;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-
-}
-
-
-#nav-right {
-
-    height: 75px;
-    width: 400px;
-
-}
-
-ul {
-    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
-    outline: 1px solid black;
-    width: 400px;
-    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
+#nav-left a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#sign-out-btn {
+    background-color: #19a1b7;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+ul li:first-child{
+    margin-right: 20px;
 
 }
+
+
 

@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Card</title>
+    <title>User Profile</title>
     <link rel="stylesheet" href="profile.css">
 </head>
 <body>
 
     <div id="nav-bar">
-        <div id="nav-left">
-            <img src="netflix" alt="">
-            <ul>
-                <li>Home</li>
-                <li>Movies</li>
-                <li>TV Shows</li>
-                <li>My List</li>     
-            </ul>
+    
+        <ul id="nav-left">
+            <li><h1>Profile</h1></li>
+            <li><a href="#">Home</a></li> 
+            <li><a href="#">My Profile</a></li> 
+            <li><a href="#">Find Connections</a></li> 
+        </ul>
+
+        <div id="nav-right">
+            <input id="sign-out-btn" type="button" value="Sign Out">
         </div>
-        <div id="nav-right"></div>
     </div>
 
 
@@ -74,7 +75,9 @@
             </div>
             <div class="card">
                 <div class="card-header">
-
+                    <p>Education</p>
+                </div>
+                <div class="card-body">
                 </div>
 
             </div>
@@ -83,14 +86,35 @@
         <div class="col-right">
             <div class="card">
                 <div class="card-header">
-                    
+                    <p>Connection Requests</p>
+                </div>
+                <div class="card-body">
+                    <div class="person">
+                        <div class="pic">
+                            <img src="" alt="">
+                            <p>Todd E</p>
+                        </div>
+                        <div class="options">
+                            <input type="button" value="BTN">
+                        </div>
+                    </div>
                 </div>
 
             </div>
 
             <div class="card">
                 <div class="card-header">
+                    <p>Your Connections</p>
                     
+                </div>
+                <div class="person">
+                    <div class="pic">
+                        <img src="" alt="">
+                        <p>Todd E</p>
+                    </div>
+                    <div class="options">
+                        <input type="button" value="BTN">
+                    </div>
                 </div>
 
             </div>
