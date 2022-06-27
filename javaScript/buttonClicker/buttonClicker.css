@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 20px;
+}
+
+#nav-bar{
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#nav-bar button{
+    background-color: blue;
+    padding: 10px;
+    box-shadow: 3px 3px black;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card{
+    border: 2px solid lightgrey;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-left button{
+    background-color: yellow;
+    padding: 10px;
+    box-shadow: 3px 3px black;
+    width: 100px;;
+    margin-top: 10px;
+
+}
+
+.card-right{
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.card-left{
+    padding:10px;
+    text-align: center;
+}
+
+#col-right button{
+    background-color: green;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 3px 3px black;
+    margin-top: 10px;
+}
+
+#add-defenition{
+    border: 2px solid lightgrey;
+    padding: 20px;
+}
