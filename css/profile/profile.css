@@ -52,6 +52,7 @@ ul li:first-child{
 /* main content css after the nav bar  */
 
 #main {
+    width: 1000px;
     display: flex;
     padding: 0px 100px;
     justify-content: space-around;
@@ -64,7 +65,7 @@ ul li:first-child{
 }
 
 .col-left {
-    flex: 2;
+    flex: 1.8;
     padding: 10px;
 
 }
@@ -123,7 +124,7 @@ ul li:first-child{
 
 /* card css */
 
-.card {
+.card:nth-child(2) {
     margin-top: 20px;
 }
 
@@ -175,7 +176,7 @@ ul li:first-child{
 
 .person span, .person-connection span{
     font-size: 1rem;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .person{
