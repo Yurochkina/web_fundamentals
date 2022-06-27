@@ -7,7 +7,7 @@
 /* nav bar */
 
 #nav-bar {
-    background-color: black;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -52,29 +52,18 @@ ul li:first-child{
 /* main content css after the nav bar  */
 
 #main {
-    height: 600px;
-    width: 1000px;
-    border: 1px solid red;
     display: flex;
     padding: 0px 100px;
     justify-content: space-around;
 }
 
 .col-right {
-
-    height: 600px;
-    width: 1000px;
-    border: 1px solid red;
     flex: 1;
     padding: 10px;
 
 }
 
 .col-left {
-
-    height: 600px;
-    width: 1000px;
-    border: 1px solid red;
     flex: 2;
     padding: 10px;
 
@@ -83,7 +72,7 @@ ul li:first-child{
 /* info card css */
 
 .info-card-header {
-    background-color: lightseagreen;
+    background-color: #19a1b7;
 }
 
 #profile-pic {
@@ -99,7 +88,7 @@ ul li:first-child{
 
 #info-card-body {
     padding-left: 30px;
-    border: 3px solid grey;
+    border: 2px solid lightgrey;
     border-top: 0px;
     padding-top: 80px;
     padding-bottom: 10px;
@@ -132,33 +121,82 @@ ul li:first-child{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* card css */
 
 .card {
-    border: 2px solid lightgray;
-    height: 200px;
-    width: 300px;
     margin-top: 20px;
 }
 
 .card-header {
-    background-color: black;
-    height: 50px;
+    background-color: #333333;
     color: white;
+    padding: 15px;
 }
+
+.card-body {
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-top: none;
+}
+
+.card-body>* {
+    margin-bottom: 10px;
+}
+
+
 
 .person {
     display: flex;
     justify-content: space-around;
 }
 
+#dates {
+    color: grey;
+}
+
+.count {
+    height: 10px;
+    width: 10px;
+    background-color: #cbcbcb;
+    border-radius: 50%;
+    padding: 5px 8px;
+    color: black;
+    margin-right: 5px;
+
+}
+
+.thumbnail {
+
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+
+.person span, .person-connection span{
+    font-size: 1rem;
+    margin-right: 100px;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.accept-reject{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.person-connections {
+    display: flex;
+    align-items: center;
+}
+
+#view-more {
+    border: 2px solid lightgrey;
+    padding: 10px;
+    border-top: none;
+}
