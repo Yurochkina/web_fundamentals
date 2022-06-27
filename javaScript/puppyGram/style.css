@@ -49,20 +49,15 @@ h1{
 #main{
     display: flex;
     gap: 20px;
-    outline: 2px solid red;
-    height: 800px;
+    /* height: 800px; */
 }
 
 #col-right{
-
-    outline: 2px solid red;
     flex:1;
 
 }
 
 #col-left{
-
-    outline: 2px solid red;
     flex:2;
 
 }
@@ -72,7 +67,8 @@ h1{
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-    border: 2px solid lightgray;
+    border: 2px solid gray;
+    margin-bottom: 20px;
 
 
 }
@@ -99,3 +95,42 @@ h1{
 
 }
 
+#upload, #video-box{
+    border: 2px solid grey;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#upload>button{
+    padding: 10px;
+    background-color: darkorange;
+    margin-top: 10px;
+    box-shadow: 2px 2px black;
+    font-size: 18px;
+}
+
+video{
+    width: 200px;
+    margin-top: 10px;
+}
+
+#cookie-box{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    background-color: lightgray;
+    border: 50%;
+
+}
+
+#cookie-box img{
+    height: 100px;
+    width: 100px;
+}
+
+#cookie-box button{
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
