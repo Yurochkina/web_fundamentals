@@ -18,9 +18,8 @@
             <button>Search!</button>
         </div>
         <div>
-            <button>Login</button>
+            <button onclick="removeElement(this)">Login</button>
         </div>
-
     </div>
 
     <div id="main">
@@ -31,8 +30,7 @@
                     <h3>Junior</h3>
                     <em>Male</em>
                     <p>Breed: <em>Fox</em></p>
-                    <button>10 likes</button>
-
+                    <button onclick="alert('Alert!')">10 likes</button>
                 </div>
                 <div class="puppy-right">
                     <p>Something about puppy <a href="#">Fox</a> More info about puppy.
@@ -42,12 +40,11 @@
 
             <div class="puppy">
                 <div class="puppy-left">
-                    <img src="resources/anothaPuppy.jpeg" alt="">
+                    <img onmouseover="changeImg(this)" src="resources/anothaPuppy.jpeg" alt="">
                     <h3>Junior</h3>
                     <em>Male</em>
                     <p>Breed: <em>Fox</em></p>
-                    <button>10 likes</button>
-
+                    <button onclick="alert('Alert!')">10 likes</button>
                 </div>
                 <div class="puppy-right">
                     <p>Something about puppy <a href="#">Fox</a> More info about puppy.
@@ -61,23 +58,24 @@
         <div id="col-right">
             <div id="upload">
                 <p>Please upload your  pup info to our puppy social media! </p>
-                <button>Upload new pup!</button>
+                <button onclick="uploadPup(this)">Upload new pup!</button>
             </div>
             <div id="video-box">
                 <P>Our popular video of the week!</P>
-                <video src="resources/puppy_video.mp4"></video>
+                <video onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" src="resources/puppy_video.mp4"></video>
                 <br>
                 <em>Puppy</em>
             </div>
         </div>
-
     </div>
 
     <div id="cookie-box">
         <img src="resources/caution.jpeg" alt="">
         <p>All information will be collected and sold to a 3rd parties. Please accept this cookies.</p>
-        <button>I accept</button>
+        <button onclick="cookieMonster()">I accept</button>
     </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>

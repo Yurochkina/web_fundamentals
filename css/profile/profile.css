@@ -52,7 +52,6 @@ ul li:first-child{
 /* main content css after the nav bar  */
 
 #main {
-    width: 1000px;
     display: flex;
     padding: 0px 100px;
     justify-content: space-around;
@@ -65,7 +64,7 @@ ul li:first-child{
 }
 
 .col-left {
-    flex: 1.8;
+    flex: 3;
     padding: 10px;
 
 }
