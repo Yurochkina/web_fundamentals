@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-
+    box-sizing: border-box;
 }
 
 body {
@@ -178,13 +178,13 @@ h2 {
 #cookie {
     display: flex;
     align-items: center;
+    position: fixed;
+    bottom: 20px;
     justify-content: space-around;
     background-color: darkgoldenrod;
     padding: 20px;
     border: 1px solid black;
     margin: 30px;
-    /* position: fixed; */
-
 }
 
 #cookie img {
@@ -199,6 +199,7 @@ h2 {
     color: white;
     font-size: 1rem;
     box-shadow: 3px 3px black;
+    margin-left: 10px;
 }
 
 
