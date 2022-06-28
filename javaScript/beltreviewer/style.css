@@ -1,0 +1,205 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    padding: 20px
+;}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-left>img{
+    height: 100px;
+    margin-right: 15px;
+}
+
+#header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-right>img{
+    height: 80px;
+    margin-left: 20px;
+}
+
+/* -------- header END ---------- */
+
+/* ---------- nav bar --------------- */
+
+#nav-bar {
+    padding: 5px 20px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
+
+#nav-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#nav-bar a{
+    color: black;
+}
+
+#nav-bar input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* ------------ nav bar END ---------- */
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ------ Players Section ------ */
+
+#players {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: coral;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.thumbnail img {
+    height: 100px;
+}
+
+.info p {
+    text-align: center;
+
+}
+
+/* -------- Players END ------------ */
+
+/* ------- Main Content Section ---- */
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+#col-left {
+    flex: 1;
+}
+
+#col-right {
+    flex: 2;
+}
+
+#col-left img {
+    height: 50px;
+    width: 100px;
+}
+
+#learn {
+    display: flex;
+    justify-content: space-around;
+    background-color: coral;
+    align-items: center;
+}
+
+#learn img {
+    height: 200px;
+    width: 150px;
+    margin-right: 15px;
+}
+
+#learn button {
+    padding: 5px 40px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 15px;
+    background-color:lightyellow;
+}
+
+#learn-right {
+    padding: 20px;
+}
+
+#col-left-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: coral;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#col-left-buttom img{
+    height: 100px;
+}
+
+
+/* -------- Main Content END ------ */
+
+/* ------- Terms of Service ------- */
+
+#terms {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 10px;
+}
+
+#terms h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ------- Terms END --------- */
+
+/* -------- Cookie bar ------- */
+
+#cookie {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkgoldenrod;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 30px;
+    /* position: fixed; */
+
+}
+
+#cookie img {
+    height: 100px;
+    width: 120px;
+    margin-right: 10px;
+}
+
+#cookie button {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 3px 3px black;
+}
+
+
+
