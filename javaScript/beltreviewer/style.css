@@ -99,7 +99,8 @@ h2 {
 #main-content {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    /* padding: 20px; */
+    margin-top: 20px;
     gap: 20px;
 }
 
@@ -111,9 +112,13 @@ h2 {
     flex: 2;
 }
 
-#col-left img {
+#col-left-top img {
     height: 50px;
     width: 100px;
+}
+
+#col-left>img {
+    height: 200px;
 }
 
 #learn {
@@ -139,14 +144,15 @@ h2 {
 
 #learn-right {
     padding: 20px;
+    text-align: center;
 }
 
 #col-left-top {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 15px;
     background-color: coral;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
