@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 80px;
+}
+
+#main {
+    margin: 40px;
+    padding: 30px;
+    border: 2px solid black;
+    width: 400px;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#top>button{
+    padding: 5px 15px;
+    background-color: yellow;
+    color: black;
+    font-size: 1rem;
+    box-shadow: 3px 3px black;
+}
+
+h3{
+    margin-right: 60px;
+}
