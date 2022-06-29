@@ -8,14 +8,50 @@
     <link rel="stylesheet" href="likes.css">
 </head>
 <body>
+    <div id="nav-bar">
+        <h1>
+            Network
+        </h1>
+    </div>
+    <h2>
+        Your Feed
+    </h2>
 
     <div id="main">
-        <div id="top">
-            <h3>Some User</h3>
-            <span id="likes">3</span><p>like(s)</p>
-            <button onclick="incrementLikes('#likes')">Like</button>
+        <div id="col-left">
+            <a href="#">Add an avatar</a>
+            <p>James Doe</p>
         </div>
-        <p>This is some filler text, it can say anything we like</p>
+        <div id="col-right">
+            <div class="card">
+                <div id="top">
+                    <h3>Some User</h3>
+                    <span id="likes1">3</span><p>like(s)</p>
+                    <button onclick="incrementLikes('#likes1')">Like</button>
+                </div>
+                <p>This is some filler text, it can say anything we like</p>
+            </div>
+            <div class="card">
+                <div id="top">
+                    <h3>Some User</h3>
+                    <span id="likes2">3</span><p>like(s)</p>
+                    <button onclick="incrementLikes('#likes2')">Like</button>
+                </div>
+                <p>This is some filler text, it can say anything we like</p>
+            </div>
+            <div class="card">
+                <div id="top">
+                    <h3>Some User</h3>
+                    <span id="likes3">3</span><p>like(s)</p>
+                    <button onclick="incrementLikes('#likes3')">Like</button>
+                </div>
+                <p>This is some filler text, it can say anything we like</p>
+            </div>
+            
+            
+
+        </div>
+        
     </div>
     <script src="script.js"></script>  
 </body>
