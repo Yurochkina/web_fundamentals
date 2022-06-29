@@ -48,6 +48,8 @@ h3{
 #col-left{
     border: 2px solid black;
     padding: 20px;
+    flex: 1;
+    text-align: center;
 }
 
 
@@ -55,5 +57,9 @@ h3{
     padding:20px;
     margin-bottom: 10px;
     border: 2px solid black;
+}
+
+#col-right{
+    flex: 2.4;
 }
 
