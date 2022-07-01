@@ -45,3 +45,23 @@ function sum(num1, num2){
 }
 
 console.log(sum(3,9));
+
+// nested loops and nested arrays
+
+
+var nums = [23, 56, 67, 86];
+var nums2 = [23, 56, 67, 86,98];
+
+function searchForNum(arr, numToFind){
+
+    for (var i = 0; i < arr.length; i++){
+        if(arr[i] == numToFind){
+            return i;
+        }
+    }
+
+    return -1;
+
+}
+
+console.log(searchForNum(nums, 1));

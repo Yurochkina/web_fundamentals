@@ -37,3 +37,11 @@ function incrementLike(id){
     element.innerText = likeCount;
 
 }
+
+function alertMessageFromInput(id){
+
+    var txt = document.querySelector(id);
+    alert(txt.value);
+
+
+}
